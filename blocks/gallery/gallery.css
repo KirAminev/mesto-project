@@ -9,7 +9,13 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+    .gallery {
+        max-width: 585px;
+    }
+}
+
+@media screen and (max-width: 580px) {
     .gallery {
         max-width: 282px;
         padding: 36px 0 0px 0;
