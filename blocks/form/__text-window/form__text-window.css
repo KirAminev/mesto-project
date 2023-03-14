@@ -1,0 +1,8 @@
+.form__text-window {
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}

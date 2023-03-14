@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css" type="text/css">
+</head>
+<body class="page">
+    <section class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="Лого">
+    </section>
+    <main>
+        <section class="profile">
+            <div class="profile__wrap">
+                <img class="profile__avatar" src="./images/Profile.jpg" alt="Аватар">
+                <div class="profile__info">
+                    <div class="profile__wrapper">
+                        <h1 class="profile__name">Жак-Ив Кусто</h1>
+                        <button class="profile__edit-button" type="button"></button>
+                    </div>
+                    <p class="profile__about">Исследователь океана</p>
+                </div>
+            </div>
+            <button class="profile__add-button"></button>
+        </section>
+        <section class="gallery">
+                <div class="card">
+                    <img class="card__image" src="./images/Karachaevsk.jpg" alt="Карачаевск">
+                    <div class="card__info">
+                        <h2 class="card__title">Карачаевск</h2>
+                        <button class="card__like-button"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="./images/Elbrus.png" alt="Гора Эльбрус">
+                    <div class="card__info">
+                        <h2 class="card__title">Гора Эльбрус</h2>
+                        <button class="card__like-button"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="./images/Dombai.png" alt="Домбай">
+                    <div class="card__info">
+                        <h2 class="card__title">Домбай</h2>
+                        <button class="card__like-button"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="./images/MountElbrus2.png" alt="Гора Эльбрус">
+                    <div class="card__info">
+                        <h2 class="card__title">Гора Эльбрус</h2>
+                        <button class="card__like-button"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="./images/Dombai2.png" alt="Домбай">
+                    <div class="card__info">
+                        <h2 class="card__title">Домбай</h2>
+                        <button class="card__like-button"></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="./images/Karachaevsk-Cherkesk.png" alt="Карачаевск-Черкеск">
+                    <div class="card__info">
+                        <h2 class="card__title">Карачаево-Черкеск</h2>
+                        <button class="card__like-button"></button>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">© 2023 Mesto Russia</p>
+    </footer>
+    <div class="popup">
+        <div class="popup__container">
+            <button class="popup__button-closing" type="button"></button>
+            <form class="form" name="Edit profile" action="/" method="post">
+                <h2 class="form__title">Редактировать профиль</h2>
+                <input class="form__text-window" type="text" name="name-entry" id="name-entry" value="Жак-Ив Кусто">
+                <input class="form__text-window" type="text" name="description-entry" id="description-entry" value="Исследователь океана">
+                <button class="form__button-submission" type="submit">Сохранить</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
