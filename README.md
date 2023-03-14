@@ -6,7 +6,7 @@
 
 Ссылка на курс - [https://practicum.yandex.ru/web-plus/]
 
-Ссылка для просмотра проекта - 
+Ссылка для просмотра проекта - [https://kiraminev.github.io/mesto-project/]
 
 **Figma**
 
