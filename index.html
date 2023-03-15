@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./pages/index.css" type="text/css">
 </head>
 <body class="page">
-    <section class="header">
+    <header class="header">
         <img class="header__logo" src="./images/logo.svg" alt="Лого">
-    </section>
+    </header>
     <main>
         <section class="profile">
             <div class="profile__wrap">
@@ -23,49 +23,49 @@
                     <p class="profile__about">Исследователь океана</p>
                 </div>
             </div>
-            <button class="profile__add-button"></button>
+            <button class="profile__add-button" type="button"></button>
         </section>
         <section class="gallery">
                 <div class="card">
                     <img class="card__image" src="./images/Karachaevsk.jpg" alt="Карачаевск">
                     <div class="card__info">
                         <h2 class="card__title">Карачаевск</h2>
-                        <button class="card__like-button"></button>
+                        <button class="card__like-button" type="button"><img src="./images/Like.svg" alt="Лайк"></button>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card__image" src="./images/Elbrus.png" alt="Гора Эльбрус">
                     <div class="card__info">
                         <h2 class="card__title">Гора Эльбрус</h2>
-                        <button class="card__like-button"></button>
+                        <button class="card__like-button" type="button"><img src="./images/Like.svg" alt="Лайк"></button>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card__image" src="./images/Dombai.png" alt="Домбай">
                     <div class="card__info">
                         <h2 class="card__title">Домбай</h2>
-                        <button class="card__like-button"></button>
+                        <button class="card__like-button" type="button"><img src="./images/Like.svg" alt="Лайк"></button>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card__image" src="./images/MountElbrus2.png" alt="Гора Эльбрус">
                     <div class="card__info">
                         <h2 class="card__title">Гора Эльбрус</h2>
-                        <button class="card__like-button"></button>
+                        <button class="card__like-button" type="button"><img src="./images/Like.svg" alt="Лайк"></button>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card__image" src="./images/Dombai2.png" alt="Домбай">
                     <div class="card__info">
                         <h2 class="card__title">Домбай</h2>
-                        <button class="card__like-button"></button>
+                        <button class="card__like-button" type="button"><img src="./images/Like.svg" alt="Лайк"></button>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card__image" src="./images/Karachaevsk-Cherkesk.png" alt="Карачаевск-Черкеск">
                     <div class="card__info">
-                        <h2 class="card__title">Карачаево-Черкеск</h2>
-                        <button class="card__like-button"></button>
+                        <h2 class="card__title">Карачаевск</h2>
+                        <button class="card__like-button" type="button"><img src="./images/Like.svg" alt="Лайк"></button>
                     </div>
                 </div>
         </section>
@@ -73,7 +73,7 @@
     <footer class="footer">
         <p class="footer__text">© 2023 Mesto Russia</p>
     </footer>
-    <div class="popup">
+    <div class="popup popup__opened">
         <div class="popup__container">
             <button class="popup__button-closing" type="button"></button>
             <form class="form" name="Edit profile" action="/" method="post">

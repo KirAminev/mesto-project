@@ -8,7 +8,8 @@
     text-align: center;
     width: 358px;
     height: 50px;
-    margin-top: 0px;
+    margin-top: 17px;
+    border: none;
 }
 
 .form__button-submission:hover {
@@ -19,7 +20,6 @@
     .form__button-submission {
         line-height: 17px;
         font-size: 14px;
-        font-weight: 400;
         width: 238px;
         height: 46px;
         margin-top: 14px;

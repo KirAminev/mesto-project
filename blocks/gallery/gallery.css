@@ -1,11 +1,10 @@
 .gallery {
-    width: 100%;
     padding: 0 0 67px 0;
-    margin: 0;
-    max-width: 880px;
+    margin: 0 auto;
+    max-width: calc(100% - (200px*2));
     gap: 20px 17px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 282px);
+    grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
     margin: 0 auto;
 }
 
@@ -17,7 +16,7 @@
 
 @media screen and (max-width: 580px) {
     .gallery {
-        max-width: 282px;
-        padding: 36px 0 0px 0;
+        max-width: calc(100% - (19px*2));
+        padding: 36px 0 0 0;
     }
 }
